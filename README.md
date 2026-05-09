@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Therapize — Premium Psychiatric Wellness
 
-## Getting Started
+A boutique, high-end online psychiatric practice website built with **Next.js**, **GSAP**, and **Lenis**.
 
-First, run the development server:
+## Visual & UX Philosophy
+- **Aesthetic**: Minimalist luxury. Warm off-whites, deep clinical blues, and sage greens.
+- **Motion**: Buttery-smooth scroll interactions and cinematic reveals.
+- **Typography**: Elegant serifs (Playfair Display) for authority and modern sans-serifs (Inter) for legibility.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Core Features
+- **Hero Section**: Dynamic GSAP-driven entry with smooth typography reveals.
+- **Crisis Management**: Hardcoded, high-visibility crisis disclaimers and a dedicated international hotline resource page.
+- **Clinical Transparency**: Detailed founder profiles with verified qualifications (GMC, Royal College, etc.).
+- **Secure Onboarding**: Multi-step booking flow with clinical consent checkboxes and visual encryption indicators.
+- **Responsive**: Fully optimized for mobile, tablet, and desktop fidelity.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
+- **Framework**: Next.js 14 (App Router)
+- **Animation**: GSAP (GreenSock Animation Platform)
+- **Scrolling**: Lenis (Smooth Scroll)
+- **Deployment**: GitHub Pages (via GitHub Actions)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Setup & Development
+1. `npm install`
+2. `npm run dev`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
+Automated via GitHub Actions. Any push to `main` will trigger a build and deploy to the `gh-pages` branch.
