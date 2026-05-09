@@ -2,7 +2,6 @@
 const nextConfig = {
   output: 'export',
   basePath: '/Therapize',
-  assetPrefix: '/Therapize/',
   images: {
     unoptimized: true,
   },
